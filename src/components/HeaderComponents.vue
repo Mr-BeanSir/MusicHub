@@ -9,7 +9,7 @@
     </div>
     <div class="right">
       <div class="logon" v-if="login">
-        <el-avatar>{{username}}</el-avatar>
+        <el-avatar>{{ username }}</el-avatar>
       </div>
       <div class="login" v-if="!login">
         <el-link type="primary" href="">登录</el-link>
@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       login: false,
-      username: '',
+      username: "",
     };
   },
 };
